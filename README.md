@@ -26,3 +26,11 @@ You can add tools declaring the functions in the plank.js file.
 Functions will be added first to Deck.</br>
 The order of adding will be keep in same order that is defined in the config of Deck App.</br>
 <strong>Same named functions will be override with Deck App definition</strong> for that reason we will recommend you to choose other names on self plank definitions.
+
+## Add this package as github module
+````sh
+git submodule add git@github.com:MoNoApps/plank.git planks/bamboo
+````
+
+## Run migrations
+node planks/bamboo/migrations/seed.js

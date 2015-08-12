@@ -10,8 +10,8 @@ var persist = function(list, model) {
   }
 };
 
-persist(roles, db.foos);
-persist(users, db.bars);
+persist(foos, db.foos);
+persist(bars, db.bars);
 
 // add menu
 db.settings.Update(
