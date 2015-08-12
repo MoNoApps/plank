@@ -1,3 +1,6 @@
 {
-  "dburl": "mongodb://127.0.0.1/deck"
+  "dburl": "mongodb://127.0.0.1/bamboo",
+  "pages":[
+    "bamboo"
+  ]
 }
