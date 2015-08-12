@@ -1,4 +1,29 @@
-var api = {};
+var api = {
+  GET: [
+    {
+      route: "ping",
+      fn: require('./api/bamboo').ping,
+      params: {}
+    },
+    {
+      route: "combo",
+      fn: require('./api/bamboo').combo,
+      params: {label: 1}
+    }
+  ],
+  POST: [
+    {
+      route: "combo",
+      fn: require('./api/bamboo').combo,
+      params: {label: 1}
+    },
+    {
+      route: "pong",
+      fn: require('./api/bamboo').pong,
+      params: {}
+    }
+  ]
+};
 var web = {};
 var sio = {};
 var tests = {};
