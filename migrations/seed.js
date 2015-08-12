@@ -16,5 +16,5 @@ persist(users, db.bars);
 // add menu
 db.settings.Update(
   {"type" : "properties"},
-  { $push: { data.user: "bars"}, data.admin: "bars"} }
+  { $push: { "data.user": "bars", "data.admin": "bars"} }
 );
