@@ -2,5 +2,22 @@
   "dburl": "mongodb://127.0.0.1/bamboo",
   "pages":[
     "bamboo"
-  ]
+  ],
+  "resources": {
+    "foos": {
+      "admin": true,
+      "param": "foo",
+      "exclude": true
+    },
+    "bars": {
+      "admin": false,
+      "param": "bar",
+      "clean": {"rar": 1},
+      "schema": {
+        "tar":  1,
+        "zar": 1,
+        "war": 1
+      }
+    }
+  }
 }
