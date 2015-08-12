@@ -16,7 +16,9 @@
       "schema": {
         "tar":  1,
         "zar": 1,
-        "war": 1
+        "war": 1,
+        "name": 1,
+        "propos": 1
       }
     }
   }
