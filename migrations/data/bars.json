@@ -1,0 +1,8 @@
+{
+  "barcito": {
+    "name": "Im a bar",
+    "props": {
+      "type": "bar"
+    }
+  }
+}
